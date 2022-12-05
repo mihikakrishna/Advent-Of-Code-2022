@@ -13,4 +13,4 @@ def FindLargestCalorieCount(part1InputFile):
             currCalorieCount = 0
     print(maxCalorieCount)
 
-FindLargestCalorieCount('day1\part1_input.txt')
+FindLargestCalorieCount('day1\input.txt')

@@ -16,4 +16,4 @@ def FindLargestCalorieCount(part2InputFile):
     calorieCounts.sort(reverse=True)
     print(sum(calorieCounts[0:3]))
 
-FindLargestCalorieCount('day1\part2_input.txt')
+FindLargestCalorieCount('day1\input.txt')

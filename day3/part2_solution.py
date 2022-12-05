@@ -15,4 +15,4 @@ def RucksackReorganization(part2InputFile):
 
     print(prioritySum)
 
-RucksackReorganization("day3\part2_input.txt")
+RucksackReorganization("day3\input.txt")

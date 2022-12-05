@@ -30,4 +30,4 @@ def RockPaperScissors(part1InputFile):
         
     print(my_score)
 
-RockPaperScissors('day2\part1_input.txt')
+RockPaperScissors('day2\input.txt')

@@ -17,6 +17,6 @@ def CampCleanup(part1InputFile):
 
     print(numPairs - numNonOverlappingRanges)
 
-CampCleanup("day4\part2_input.txt")
+CampCleanup("day4\input.txt")
     
     

@@ -15,4 +15,4 @@ def RucksackReorganization(part1InputFile):
             prioritySum += ord(intersection) - ord('A') + 27
     print(prioritySum)
 
-RucksackReorganization("day3\part1_input.txt")
+RucksackReorganization("day3\input.txt")
