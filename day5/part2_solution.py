@@ -1,6 +1,6 @@
 from collections import deque
 
-def extractInput(part1InputFile):
+def ExtractInput(part1InputFile):
     f = open(part1InputFile, 'r')
     input = [line.rstrip('\n')for line in f]
 
@@ -35,7 +35,7 @@ def CreateStackMatrix(crateInput):
 
     return stackMatrix
 
-def returnTopCrates(stackMatrix):
+def ReturnTopCrates(stackMatrix):
     res = ""
     for i in range(len(stackMatrix)):
         if stackMatrix[i]:
@@ -44,7 +44,7 @@ def returnTopCrates(stackMatrix):
 
 
 def SupplyStacks(part1InputFile):
-    crateInput, directionInput = extractInput(part1InputFile)
+    crateInput, directionInput = ExtractInput(part1InputFile)
     stackMatrix = CreateStackMatrix(crateInput)
 
     for direction in directionInput:
@@ -57,6 +57,6 @@ def SupplyStacks(part1InputFile):
             crates.append(stackMatrix[fromStack].pop())
         stackMatrix[toStack] += crates[::-1]
     
-    print(returnTopCrates(stackMatrix))
+    print(ReturnTopCrates(stackMatrix))
 
 SupplyStacks("day5\input.txt")
